@@ -1,0 +1,61 @@
+main: TheRealMcrafter.LunaGamesUtils.main.LunaGamesUtils
+name: LunaGamesUtils
+version: 1.2
+author: TheRealMcrafter
+description: Various helper utilities for LunaCraft command block games!
+api-version: 1.15
+commands:
+  lunagamesutils:
+    description: All of the commands for LunaUtils.
+  lgu:
+    description: All of the commands for LunaUtils.
+  sethealth:
+    description: Sets a given players health to a value.
+  sethunger:
+    description: Sets a given players hunger to a value.
+  setsaturation:
+    description: Sets a given players saturation to a value.
+  setgod:
+    description: Enables or disables godmode for a specified player.
+  healplayer:
+    description: Heals the specified player.
+  setspeed:
+    description: Sets the speed for a specified player.
+  addassassin:
+    description: Adds a player to the assassin list
+  addspeedrunner:
+    description: Adds a player to the speedrunner list
+  endgame:
+    description: Ends the active SRvsASS game
+  getcompass:
+    description: Gives the assassin a compass
+  listplayers:
+    description: Lists the active players
+  addgame:
+    description: Adds a specified cb game to the list of games
+  removegame:
+    description: Removes the specified cb game from the list of games
+  listgames:
+    description: Lists all currently added cb games
+  addcoords:
+    description: Adds the players coords to the list of summon and tp coords etc
+  removecoords:
+    description: Removes the selected coords from the list of summon and tp coords.
+  listcoords:
+    description: Lists all coords for the specified game and index.
+  selectrandomcoord:
+    description: Selects a random coord from the files to perform operations on.
+  forgetrandomcoord:
+    description: Forgets all currently saved random coords
+  summonrandom:
+    description: Summons an item at a random location from the specified game.
+  tprandom:
+    description: Teleports an entity to a random location from the specified game.
+  particlerandom:
+    description: Summons a particle effect at a random location for the specified game.
+  playsoundrandom:
+    description: Plays a sound at a random location for the specified game.
+permissions:
+    lunagamesutils.admin:
+        description: All of the admin permissions for LunaGamesUtils.
+        default: op
